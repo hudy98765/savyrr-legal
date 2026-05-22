@@ -13,14 +13,14 @@
       margin: 0;
       background: #ffffff;
       color: #111111;
-      font-family: Arial, Helvetica, sans-serif;
-      line-height: 1.55;
+      font-family: Georgia, "Times New Roman", serif;
+      line-height: 1.65;
     }
 
     .page {
-      max-width: 900px;
+      max-width: 860px;
       margin: 0 auto;
-      padding: 32px 20px 56px;
+      padding: 34px 22px 64px;
     }
 
     .document-assets {
@@ -45,9 +45,69 @@
       height: auto;
     }
 
-    .legal-text {
-      white-space: normal;
+    .document-title,
+    .part-title,
+    .section-title,
+    .paragraph,
+    .list-item,
+    .dash-item {
+      margin: 0;
+      overflow-wrap: anywhere;
+    }
+
+    .document-title {
+      margin: 10px 0 16px;
+      text-align: center;
+      font-size: 20px;
+      font-weight: 700;
+      line-height: 1.35;
+    }
+
+    .part-title {
+      margin: 28px 0 14px;
+      text-align: center;
+      font-size: 17px;
+      font-weight: 700;
+      letter-spacing: 0;
+    }
+
+    .section-title {
+      margin: 26px 0 12px;
+      text-align: center;
+      font-size: 18px;
+      font-weight: 700;
+      line-height: 1.4;
+    }
+
+    .paragraph {
+      margin: 0 0 11px;
+      text-align: justify;
+      text-indent: 28px;
       font-size: 16px;
+    }
+
+    .list-item,
+    .dash-item {
+      margin: 0 0 9px 34px;
+      text-align: justify;
+      text-indent: -24px;
+      font-size: 16px;
+    }
+
+    @media (max-width: 640px) {
+      .page {
+        padding: 24px 16px 48px;
+      }
+
+      .paragraph {
+        text-indent: 18px;
+      }
+
+      .list-item,
+      .dash-item {
+        margin-left: 24px;
+        text-indent: -18px;
+      }
     }
   </style>
 </head>
@@ -57,155 +117,127 @@
       <img src="Logo.png" alt="Logo" class="document-logo">
       <img src="Certificate.png" alt="Certificate" class="document-certificate">
     </div>
-    <div class="legal-text">
-/<br>
-<br>
-<br>
-POLITYKA PRYWATNOŚCI PLATFORMY SAVYRR<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-&#167;1 Postanowienia og&#243;lne<br>
-<br>
-Ten dokument stanowi załącznik do Regulaminu. Korzystając z naszych usług, powierzasz nam swoje informacje. Niniejsza Polityka prywatności służy jedynie jako pomoc w zrozumieniu, jakie informacje i dane są zbierane i w jakim celu je wykorzystujemy. Te dane są bardzo dla nas ważne, dlatego prosimy o dokładne zapoznanie się z tym dokumentem gdyż określa on zasady oraz sposoby przetwarzania i ochrony danych osobowych. Dokument ten określa także zasady stosowania plik&#243;w „Cookies”. <br>
-Niniejszym oświadczamy, że przestrzegamy zasad ochrony danych osobowych oraz wszelkich uregulowań prawnych, kt&#243;re są przewidziane Ustawą o ochronie danych osobowych oraz Rozporządzeniem Parlamentu Europejskiego i Rady (UE) 2016/679 z dnia 27 kwietnia 2016 r. w sprawie ochrony os&#243;b fizycznych w związku z przetwarzaniem danych osobowych i w sprawie swobodnego przepływu takich danych oraz uchylenia dyrektywy 95/46/WE.<br>
-Osoba kt&#243;rej dane osobowe są przetwarzane ma prawo zwr&#243;cić się do nas celem uzyskania wyczerpujących informacji w jaki spos&#243;b wykorzystujemy jego dane osobowe. Zawsze w jasny spos&#243;b staramy się poinformować o danych, kt&#243;re gromadzimy, w jaki spos&#243;b je wykorzystujemy, jakim celom mają służyć i komu je przekazujemy, jaką zapewniamy ochronę tych danych przy przekazaniu innym podmiotom oraz udzielamy informacji o instytucjach z kt&#243;rymi należy się skontaktować w razie wątpliwości. <br>
-Platforma stosuje środki techniczne takie jak: środki ochrony fizycznej danych osobowych, środki  sprzętowe infrastruktury informatycznej i telekomunikacyjnej, środki ochrony w ramach narzędzi programowych i baz danych oraz środki organizacyjne zapewniające należytą ochronę przetwarzanych danych osobowych, a w szczeg&#243;lności zabezpieczają dane osobowe przed udostępnieniem ich nieupoważnionym osobom trzecim, uzyskaniem przez osobę nieupoważnioną i wykorzystaniem ich w niewiadomym celu, a także przypadkową lub celową zmianą, utratą, uszkodzeniem lub zniszczeniem takich danych. Obejmuje to m.in. ochronę komunikacji, kontrolę dostępu, ograniczanie nadużyć, walidację działań użytkownik&#243;w, mechanizmy zgłoszeń oraz moderację. Logi techniczne związane z bezpieczeństwem i diagnostyką mogą być przechowywane przez ograniczony okres, obecnie do około 90 dni.<br>
-Na zasadach określonych w Regulaminie oraz w niniejszym dokumencie posiadamy wyłączny dostęp do danych. Dostęp do danych osobowych może być r&#243;wnież powierzony innym podmiotom za pomocą kt&#243;rych dokonuje się płatności, kt&#243;re gromadzą, przetwarzają i przechowują dane osobowe zgodnie ze swoimi Regulaminami oraz podmioty, kt&#243;re mają za zadanie realizację zam&#243;wienia. Dostęp do danych osobowych jest udzielany w/w podmiotom w zakresie niezbędnym i tylko takim, kt&#243;ry zapewni realizację usług.<br>
-Dane osobowe są przetwarzane tylko w&#160;takich celach na&#160;jakie wyrazili Państwo zgodę poprzez kliknięcia w&#160;odpowiednie pola formularza zamieszczonego Platformie lub&#160;w&#160;inny wyraźny spos&#243;b. Podstawą prawną przetwarzania Państwa danych osobowych jest zgoda na&#160;przetwarzanie danych lub&#160;wym&#243;g realizacji usługi (np. zam&#243;wienie produktu czy usługi, stosownie do&#160;artykułu 6 ust. 1 lit a&#160;i b Rozporządzenia Parlamentu Europejskiego i&#160;Rady (UE) 2016/679 z&#160;dnia 27 kwietnia 2016 r. w&#160;sprawie ochrony os&#243;b fizycznych w&#160;związku z&#160;przetwarzaniem danych osobowych i&#160;w sprawie swobodnego przepływu takich danych oraz&#160;uchylenia dyrektywy 95/46/WE (og&#243;lne rozporządzenie o&#160;ochronie danych) -&#160;RODO.<br>
-<br>
-&#167;2 Zasady prywatności<br>
-<br>
-Poważnie traktujemy prywatność. Charakteryzuje nas szacunek dla prywatności oraz możliwie najpełniejsza i zagwarantowana wygoda z korzystania z naszego usług.<br>
-Cenimy zaufanie, jakim obdarzają nas Użytkownicy, powierzając nam swoje dane osobowe w celu realizacji zam&#243;wienia. Zawsze korzystamy z danych osobowych w spos&#243;b uczciwy oraz tak, aby nie zawieść tego zaufania, tylko w zakresie niezbędnym do realizacji zam&#243;wienia w tym jego przetwarzania.<br>
-Użytkownik ma prawo do uzyskania jasnych i pełnych informacji o tym, w jaki spos&#243;b wykorzystujemy jego dane osobowe i do jakich cel&#243;w są potrzebne. Zawsze w jasny spos&#243;b informujemy o danych, kt&#243;re gromadzimy, w jaki spos&#243;b i komu je przekazujemy oraz udzielamy informacji o podmiotach, z kt&#243;rymi należy się skontaktować w razie wątpliwości, pytań, uwag.<br>
-W razie wątpliwości odnośnie wykorzystywania przez nas danych osobowych Użytkownika, niezwłocznie podejmiemy działania w celu wyjaśnienia takich wątpliwości, w spos&#243;b pełny i wyczerpujący odpowiadamy na wszystkie pytania z tym związane.<br>
-Podejmiemy wszystkie uzasadnione działania, aby chronić dane Użytkownik&#243;w przed nienależytym i niekontrolowanym wykorzystaniem oraz zabezpieczyć je w spos&#243;b kompleksowy.<br>
-Administratorem danych osobowych jest Kamil Sąder, ul. Walerego Sławka 9/84, 30-633 Krak&#243;w, adres e-mail: savyrr.contact@gmail.com (osoba fizyczna nieprowadząca działalności gospodarczej; w razie rozpoczęcia działalności gospodarczej Administrator zaktualizuje powyższe dane oraz uzupełni numer NIP/REGON, a niniejszy zapis będzie podlegał odpowiedniej aktualizacji).<br>
-Podstawą prawną przetwarzania Państwa danych osobowych jest art. 6 ust. 1 lit. b) RODO. Podanie danych nie jest obowiązkowe, ale niezbędne do podjęcia odpowiednich czynności poprzedzających zawarcie umowy oraz jej realizację. Będziemy przekazywać Państwa dane osobowe innym odbiorcom, kt&#243;rym powierzono przetwarzanie danych osobowych w imieniu i na naszą rzecz. Państwa dane będą przekazywane na podstawie art. 6 ust. 1 lit. f) RODO, gdzie prawnie uzasadnionym interesem jest należyte wykonanie um&#243;w/zleceń. Zebrane dane osobowe przechowujemy na terenie Europejskiego Obszaru Gospodarczego („EOG”), ale mogą one być także przesyłane do kraju spoza tego obszaru i tam przetwarzane. Każda operacja przesyłania danych osobowych jest wykonywana zgodnie z obowiązującym prawem. Jeżeli dane są przekazywane poza EOG, odbywa się to na podstawie mechanizm&#243;w przewidzianych przez RODO, w szczeg&#243;lności decyzji stwierdzającej odpowiedni stopień ochrony, standardowych klauzul umownych zatwierdzonych przez Komisję Europejską lub innych właściwych zabezpieczeń.<br>
-Państwa dane osobowe związane z zawarciem i realizacją umowy o świadczenie usług przetwarzane będą przez okres ich realizacji, a po jej zakończeniu nie dłużej niż wymagają tego obowiązujące przepisy prawa, w tym przepisy Kodeksu cywilnego oraz ustawy o rachunkowości – tj. co do zasady do 10 lat, licząc od końca roku kalendarzowego, w kt&#243;rym ostatnia umowa została wykonana (na potrzeby ewentualnych roszczeń, obowiązk&#243;w podatkowych i rachunkowych). Dane konta użytkownika (profil, zdjęcia, treści, dane logowania) są przechowywane przez okres aktywności konta i podlegają mechanizmowi automatycznego usuwania: po 12 miesiącach braku aktywności użytkownik otrzymuje ostrzeżenie, a po 18 miesiącach braku aktywności konto wraz z powiązanymi danymi jest trwale usuwane. Dłuższe okresy retencji (do 10 lat) odnoszą się wyłącznie do tych kategorii danych, dla kt&#243;rych obowiązek przechowywania wynika z przepis&#243;w (np. dokumentacja księgowa, dane niezbędne do obrony przed roszczeniami).<br>
-Państwa dane osobowe przetwarzane w celu zawarcia i wykonania przyszłych um&#243;w będą przetwarzane do czasu zgłoszenia sprzeciwu.<br>
-Przysługuje Państwu prawo do: dostępu do swoich danych osobowych i otrzymania kopii danych osobowych podlegających przetwarzaniu, sprostowania swoich nieprawidłowych danych; żądania usunięcia danych (prawo do bycia zapomnianym) w przypadku wystąpienia okoliczności przewidzianych w art. 17 RODO; żądania ograniczenia przetwarzania danych w przypadkach wskazanych w art. 18 RODO, wniesienia sprzeciwu wobec przetwarzania danych w przypadkach wskazanych w art. 21 RODO, przenoszenia dostarczonych danych, przetwarzanych w spos&#243;b zautomatyzowany.<br>
-Jeżeli uważacie Państwo, że dane osobowe są przetwarzane niezgodnie z prawem, możecie wnieść skargę do organu nadzorczego (Urząd Ochrony Danych Osobowych, ul. Stawki 2, Warszawa). Jeśli potrzebujecie Państwo dodatkowych informacji związanych z ochroną danych osobowych lub chcecie skorzystać z przysługujących praw, skontaktujcie się z nami listownie na adres korespondencyjny.<br>
-Dokładamy wszelkich starań, aby chronić przed nieuprawnionym dostępem, nieautoryzowaną modyfikacją, ujawnieniem oraz zniszczeniem informacji znajdujących się w naszym posiadaniu. W szczeg&#243;lności:<br>
-Kontrolujemy metody gromadzenia, przechowywania i przetwarzania informacji, w tym fizyczne środki bezpieczeństwa, aby chronić przed nieuprawnionym dostępem do systemu.<br>
-Dostępu do danych osobowych udzielamy jedynie tym pracownikom, kontrahentom oraz  przedstawicielom, kt&#243;rzy muszą mieć do nich dostęp. Ponadto na mocy umowy są oni zobowiązani do zachowania ścisłej poufności, do umożliwienia nam kontroli i sprawdzenia jak wywiązują się z powierzonych obowiązk&#243;w, a w przypadku niewypełnienia tych zobowiązań mogą ponieść konsekwencje.<br>
-Będziemy przestrzegać wszystkich obowiązujących przepis&#243;w i regulacji dotyczących ochrony danych i będziemy wsp&#243;łpracować z organami zajmującymi się ochroną danych oraz uprawnionymi do tego organami ścigania. W przypadku braku przepis&#243;w dotyczących ochrony danych, będziemy postępować zgodnie z og&#243;lnie przyjętymi zasadami ochrony danych, zasadami wsp&#243;łżycia społecznego jak i ustalonymi zwyczajami.<br>
-Dokładny spos&#243;b ochrony danych osobowych został zawarty w polityce ochrony danych osobowych (ODO: polityka bezpieczeństwa, regulamin ochrony danych osobowych, instrukcja zarządzania systemem informatycznym) Z przyczyn bezpieczeństwa, ze względu na opisane w niej procedury, jest ona do wglądu jedynie dla organ&#243;w kontroli państwowej. <br>
-W razie pytań, odnośnie sposobu, w jaki postępowania z danymi osobowymi, zapraszamy do kontaktu za pomocą strony, z kt&#243;rej użytkownik został przekierowany do niniejszej Polityki prywatności. Prośba o kontakt zostanie niezwłocznie przekazana do odpowiedniej powołanej do tego osoby.<br>
-Użytkownik ma zawsze prawo powiadomić nas, jeśli:<br>
-nie chce w jakiejkolwiek formie już otrzymywać od nas informacji lub wiadomości;<br>
-pragnie otrzymać posiadaną przez nas kopię swoich danych osobowych;<br>
-poprawić, zaktualizować lub usunąć swoje dane osobowe znajdujące się w naszej ewidencji;<br>
-pragnie zgłosić naruszenia, nienależyte wykorzystanie bądź przetwarzanie swoich danych osobowych.<br>
-Aby ułatwić nam odpowiedź bądź ustosunkowanie się do podanych informacji, prosimy o podanie imienia i nazwiska oraz dalej idących szczeg&#243;ł&#243;w.<br>
-<br>
-<br>
-&#167;3 Zakres i cel zbierania danych osobowych<br>
-<br>
-Przetwarzamy niezbędne dane osobowe w celu realizacji usług oraz w celach księgowych i tylko takich tj. :<br>
-w celu zawarcia umowy, świadczenia usług reklamacji oraz odstąpienia od umowy,<br>
-monitorowanie ruchu w aplikacji oraz na ewentualnej stronie internetowej Usługodawcy;<br>
-zbieranie anonimowych statystyk dotyczących sposobu korzystania z aplikacji;<br>
-ustalanie liczby anonimowych użytkownik&#243;w korzystających z aplikacji;<br>
-kontrolowanie, jak często prezentowane są użytkownikom poszczeg&#243;lne treści (profile, oferty wydarzeń);<br>
-kontrolowanie, jak często użytkownicy korzystają z poszczeg&#243;lnych funkcjonalności aplikacji oraz inicjują kontakt;<br>
-umożliwienie kontaktu z Administratorem (m.in. wiadomości transakcyjne wysyłane przez Resend);<br>
-wykorzystanie systemu dopasowań (matchmaking) oraz prezentacji ofert powiązanych z wydarzeniami;<br>
-wykorzystanie wewnętrznego systemu komunikacji pomiędzy użytkownikami (czat) oraz wysyłki transakcyjnych wiadomości e-mail (potwierdzenia, powiadomienia, ostrzeżenia o nieaktywności konta);<br>
-integracja z zewnętrznymi dostawcami tożsamości: Sign in with Google (Google LLC) oraz Sign in with Apple (Apple Inc.) – wyłącznie w zakresie umożliwienia rejestracji i uwierzytelnienia użytkownika;<br>
-obsługa ewentualnych przyszłych płatności wewnątrz aplikacji za funkcje dodatkowe (np. „Boost”, „Oferta Premium”) – rozliczanych za pośrednictwem App Store (Apple Inc.) lub Google Play (Google LLC) zgodnie z regulaminami tych dostawc&#243;w; obecnie funkcje te są nieodpłatne.<br>
-<br>
-Zbieramy, przetwarzamy i przechowujemy następujące dane użytkownik&#243;w:<br>
-adres poczty elektronicznej (e-mail),<br>
-identyfikatory logowania zewnętrznego: Apple ID oraz Google ID – w zakresie niezbędnym do uwierzytelnienia użytkownika (otrzymywany jest unikalny identyfikator dostawcy oraz – jeśli użytkownik wyrazi zgodę po stronie dostawcy – adres e-mail);<br>
-datę urodzenia,<br>
-informacje techniczne dotyczące urządzenia użytkownika, systemu operacyjnego, wersji aplikacji oraz w przypadku korzystania z wersji web informacje o używanej przeglądarce, <br>
-dane profilowe podawane przez użytkownika, takie jak imię, wiek, płeć, wzrost, opis profilu, zainteresowania oraz informacje dotyczące stylu życia, w tym deklaracje dotyczące palenia lub spożywania alkoholu.<br>
-informacje  dotyczące preferencji użytkownika w zakresie dopasowań.<br>
-przybliżone dane lokalizacyjne użytkownika wykorzystywane wyłącznie do działania funkcji dopasowań i prezentacji użytkownik&#243;w lub ofert w określonym obszarze geograficznym; dokładna lokalizacja użytkownika nie jest publicznie udostępniana innym użytkownikom.<br>
-zdjęcia profilowe i inne treści publikowane przez użytkownika.<br>
-dane komunikacyjne związane z wiadomościami i interakcjami pomiędzy użytkownikami.<br>
-opinie i recenzje po wydarzeniach.<br>
-dane techniczne i bezpieczeństwa niezbędne do utrzymania działania usługi.<br>
-tokeny powiadomień push (Expo Push Token / APNs / FCM) oraz identyfikatory urządzeń niezbędne do dostarczania powiadomień;<br>
-inne dobrowolnie przekazane nam dane osobowe.<br>
-<br>
-Podanie powyższych danych przez jest całkowicie dobrowolne ale także i niezbędne do pełnej realizacji usług.<br>
-Cel gromadzenia i przetwarzania lub wykorzystania przez nas danych:<br>
-obecnie Administrator nie prowadzi działań marketingu bezpośredniego ani kampanii reklamowych w aplikacji; w przypadku ich uruchomienia w przyszłości użytkownik zostanie o tym poinformowany, a niniejsza Polityka zostanie zaktualizowana;<br>
-realizacja obowiązk&#243;w nałożonych przepisami prawa poprzez zbieranie informacji o niepożądanych działaniach;<br>
-Możemy przesyłać dane osobowe do serwer&#243;w znajdujących się poza krajem zamieszkania użytkownika lub do podmiot&#243;w powiązanych, stron trzecich z siedzibą w innych krajach w tym krajach z obszaru EOG (Europejski Obszar Gospodarczy, EOG ang. European Economic Area, EEA – strefa wolnego handlu i Wsp&#243;lny Rynek, obejmujące państwa Unii Europejskiej i Europejskiego Stowarzyszenia Wolnego Handlu EFTA) w celu przetwarzania danych osobowych przez takie podmioty w naszym imieniu zgodnie z postanowieniami niniejszej Polityki prywatności oraz obowiązującymi przepisami prawa, zwyczajami jak i regulacjami dotyczącymi ochrony danych. <br>
-Wykaz kategorii odbiorc&#243;w danych (podmiot&#243;w przetwarzających), z kt&#243;rych usług Administrator korzysta przy świadczeniu usług aplikacji:<br>
-Google LLC – usługa „Sign in with Google” (uwierzytelnianie użytkownik&#243;w);<br>
-Apple Inc. – usługa „Sign in with Apple” (uwierzytelnianie użytkownik&#243;w);<br>
-Expo (650 Industries, Inc.) – wysyłka powiadomień push (Expo Push Notifications) oraz dostarczanie aktualizacji aplikacji (Expo Updates);<br>
-Resend (Resend, Inc.) – wysyłka transakcyjnych wiadomości e-mail (np. powiadomienia, ostrzeżenia o nieaktywności konta);<br>
-dostawca usług object storage zgodny ze standardem S3 (m.in. Civo Ltd.) – przechowywanie zdjęć i innych treści użytkownik&#243;w;<br>
-dostawca infrastruktury serwerowej oraz baz danych, w tym PostgreSQL, Redis i RabbitMQ – hosting backendu oraz przetwarzanie danych w trakcie świadczenia usług;<br>
-Apple Inc. / Google LLC – w zakresie ewentualnych przyszłych płatności realizowanych przez App Store / Google Play;<br>
-podmioty świadczące usługi prawne, księgowe i podatkowe na rzecz Administratora – w zakresie niezbędnym do obsługi rozliczeń i zobowiązań prawnych;<br>
-organy państwowe (sądy, organy ścigania, organy nadzorcze) – w zakresie i na podstawie obowiązujących przepis&#243;w prawa.<br>
-Z każdym z podmiot&#243;w przetwarzających, w zakresie wymaganym przez art. 28 RODO, Administrator zawiera lub zawrze przed rozpoczęciem powierzenia danych odpowiednią umowę powierzenia przetwarzania danych osobowych. Część dostawc&#243;w (m.in. Google, Apple, Expo, Resend) ma siedzibę poza Europejskim Obszarem Gospodarczym; w takim przypadku przekazywanie danych odbywa się na podstawie standardowych klauzul umownych zatwierdzonych przez Komisję Europejską lub innych mechanizm&#243;w przewidzianych przez RODO.<br>
-Twoje dane osobowe przechowujemy nie dłużej niż są one potrzebne dla właściwej jakości obsługi i w zależności od trybu i celu ich pozyskania przechowujemy je na czas jej trwania oraz po jej zakończeniu w celach:<br>
-realizacji obowiązk&#243;w wynikających z przepis&#243;w prawa, przepis&#243;w podatkowych i rachunkowych;<br>
-zapobiegania nadużyciom lub przestępstwom;<br>
-statystycznych i archiwizacyjnych.<br>
-Działania marketingowe - na czas trwania umowy, udzielenia odrębnej zgody na przetwarzanie takich danych – do czasu zakończenia działań związanych z obsługą transakcji, wniesienia przez Ciebie sprzeciwu wobec takiego przetwarzania lub wycofania zgody.<br>
-Działania okołosprzedażowe i promocyjne - np. konkursy, akcje promocyjne – na czas trwania i rozliczenia takich akcji.<br>
-Działalność operacyjna - do czasu przedawnienia obowiązk&#243;w nałożonych przez Rozporządzenie RODO oraz odpowiednie przepisy krajowe, celem wykazania rzetelności w przetwarzaniu danych osobowych<br>
-dochodzenia Wszelkich roszczeń związanych ze zrealizowaną umową;<br>
-Mając na uwadze okoliczności, że w wielu krajach, do kt&#243;rych są przesyłane niniejsze dane osobowe nie obowiązuje taki sam poziom ochrony prawnej danych osobowych, jaki obowiązuje w kraju użytkownika. Do danych osobowych użytkownika przechowywanych w innym kraju dostęp zgodnie z prawem tam obowiązującym, dostęp mogą uzyskać na przykład: sądy, organy odpowiedzialne za egzekwowanie prawa i bezpieczeństwo narodowe, zgodnie z przepisami obowiązującymi w tym kraju. Z zastrzeżeniem zgodnych z prawem pr&#243;śb o ujawnienie danych, zobowiązujemy się wymagać od podmiot&#243;w przetwarzających dane osobowe poza krajem użytkownika podjęcia działań w celu ochrony danych w adekwatny spos&#243;b do regulacji ich prawa krajowego.<br>
-<br>
-<br>
-&#167;4 Polityka „Cookies”<br>
-Usługa jest świadczona gł&#243;wnie w postaci aplikacji mobilnej. Aplikacja mobilna nie wykorzystuje plik&#243;w „cookies&quot; w klasycznym rozumieniu przeglądarkowym; w celach analogicznych (utrzymanie sesji, identyfikacja zalogowanego użytkownika, bezpieczeństwo) wykorzystywane są wyłącznie tokeny uwierzytelniające oraz identyfikatory techniczne urządzenia, przechowywane lokalnie w bezpiecznych magazynach systemu operacyjnego (Keychain w iOS / Keystore w Android). Aplikacja nie korzysta z narzędzi analitycznych (np. Google Analytics), reklamowych (np. Google Ads, Meta Ads, Facebook Pixel), remarketingowych ani z mechanizm&#243;w śledzenia użytkownik&#243;w w celach marketingowych. W razie uruchomienia w przyszłości strony internetowej Usługodawcy lub wprowadzenia narzędzi analitycznych/reklamowych, niniejsza Polityka zostanie zaktualizowana, a użytkownik zostanie o tym poinformowany przed rozpoczęciem przetwarzania w tych celach.<br>
-<br>
-<br>
-&#167;5 Prawa i obowiązki<br>
-<br>
-Mamy prawo a w przypadkach prawem określonych także i ustawowy obowiązek do przekazania wybranych bądź wszystkich informacji dotyczących danych osobowych organom władzy publicznej bądź osobom trzecim, kt&#243;re zgłoszą takie żądanie udzielenia informacji na podstawie obowiązujących przepis&#243;w prawa polskiego.<br>
-Użytkownik ma prawo dostępu do treści swoich danych osobowych, kt&#243;re udostępnia, Użytkownik może te dane poprawiać, uzupełniać w każdym czasie, a także ma prawo do żądania aby je usunięto ze swoich baz danych bądź zaprzestano je przetwarzać, bez podawania jakiekolwiek przyczyny. W celu realizacji swoich praw Użytkownik może w każdym czasie przesłać stosowną wiadomość na adres poczty elektronicznej bądź w inny spos&#243;b, kt&#243;ry dostarczy/przekaże takie żądanie.<br>
-Przetwarzanie danych osobowych os&#243;b fizycznych będących naszymi klientami opiera się na:<br>
-usprawiedliwionym interesie jako administratora danych (np. w zakresie tworzenia bazy danych, czynności analitycznych i profilujących, w tym czynności dot. analizy korzystania z produkt&#243;w, marketingu bezpośredniego produkt&#243;w własnych, zabezpieczeniu dokumentacji na potrzeby obrony przed ewentualnymi roszczeniami lub na potrzeby dochodzenia roszczeń),<br>
-wykonania zawartej umowy,<br>
-obowiązk&#243;w wynikających z prawa (np. prawa podatkowego lub przepis&#243;w o rachunkowości).<br>
-Przetwarzanie danych osobowych os&#243;b fizycznych będących potencjalnymi klientami opiera się na:<br>
-usprawiedliwionym interesie administratora danych (np. w zakresie tworzenia bazy danych, marketingu bezpośrednim produkt&#243;w własnych)<br>
-Żądanie ze strony Użytkownika usunięcia danych osobowych lub zaprzestania ich przetwarzania przez może skutkować całkowitym brakiem możliwości realizacji usług przez bądź ich poważnym ograniczeniem.   <br>
-Szczeg&#243;lną wagę przykładamy do kwestii profilowania i wskazujemy, że:<br>
-na potrzeby profilowania przetwarzamy z reguły dane, kt&#243;re uprzednio podlegały szyfrowaniu ssl;<br>
-wykorzystujemy do tego dane podane przez użytkownika w profilu (m.in. wiek, płeć, lokalizację, preferencje partnera, zainteresowania, styl życia) oraz dane techniczne (identyfikator konta, identyfikator urządzenia, adres IP);<br>
-profilujemy w celu realizacji funkcji dopasowań (matchmaking) i filtrowania ofert/profili zgodnie z kryteriami zdefiniowanymi przez użytkownika (m.in. lokalizacja, preferencje partnera, rodzaj wydarzenia), a także w celu ustalania rankingu prezentowanych ofert i wykorzystania funkcji typu „Boost” (kt&#243;ra – po jej ewentualnym uruchomieniu – może promować widoczność wybranych treści użytkownika);<br>
-obecnie Administrator nie prowadzi profilowania w celach marketingowych ani nie korzysta z reklam behawioralnych ani z system&#243;w reklam zewnętrznych; w razie zmiany w tym zakresie niniejsza Polityka zostanie zaktualizowana, a użytkownik zostanie o tym poinformowany.<br>
-Zobowiązujemy się postępować zgodnie z obowiązującymi przepisami prawa i zasadami wsp&#243;łżycia społecznego.<br>
-Informacja o pozasądowym rozpatrywaniu spor&#243;w konsumenckich. Podmiotem uprawnionym w rozumieniu ustawy o pozasądowym rozpatrywaniu spor&#243;w konsumenckich jest Rzecznik Finansowy, kt&#243;rego adres strony internetowej jest następujący: www.rf.gov.pl.<br>
-<br>
-<br>
-&#167;6 Podstawowe zasady bezpieczeństwa<br>
-<br>
-Każdy użytkownik powinien dbać o swoje własne bezpieczeństwo danych oraz o bezpieczeństwo swoich urządzeń, kt&#243;re służą dostępowi do sieci Internet. Takie urządzenie powinno bezwzględnie posiadać program antywirusowy z aktualną regularnie uzupełnianą bazą definicji, typ&#243;w i rodzaj&#243;w wirus&#243;w, bezpieczną wersję przeglądarki internetowej z kt&#243;rej korzysta oraz włączoną zaporę sieciową. Użytkownik powinien sprawdzać, czy system operacyjny i programy zainstalowane na nim posiadają najnowsze i kompatybilne aktualizacje, ponieważ w atakach wykorzystywane są błędy wykryte w zainstalowanym oprogramowaniu.<br>
-Dane dostępowe do usług oferowanych w sieci Internet to – np. loginy, hasła, PIN, certyfikaty elektroniczne itp., – powinny być zabezpieczone w miejscu niedostępnym dla innych i niemożliwym do włamania z poziomu sieci internetowej. Nie należy ich ujawniać lub przechowywać na urządzeniu w formie, kt&#243;ra umożliwia nieautoryzowany dostęp i odczyt przez osoby do tego nieuprawnione.<br>
-Ostrożność podczas otwierania dziwnych załącznik&#243;w lub odnośnik&#243;w w wiadomościach mailowych, kt&#243;rych się nie spodziewaliśmy np. od nieznanych nadawc&#243;w, bądź z folderu spam.<br>
-Zaleca się uruchomienie w przeglądarce internetowej filtr&#243;w antyphishingowych czyli narzędzi, kt&#243;re sprawdzają, czy wyświetlona strona internetowa jest autentyczna i nie służy wyłudzaniu informacji, np. poprzez podszywanie się pod osobę lub instytucję.<br>
-Pliki powinny być pobierane tylko i wyłącznie z zaufanych miejsc, serwis&#243;w i stron. Nie zalecamy instalowania oprogramowania z niezweryfikowanych źr&#243;deł zwłaszcza od nieznanych wydawc&#243;w o niesprawdzonej opinii. Dotyczy to r&#243;wnież urządzeń przenośnych, np. smartfon&#243;w, tablet&#243;w.<br>
-Podczas używania domowej sieci bezprzewodowej Wi-Fi należy ustalić takie hasło aby było bezpieczne i trudne do złamania, nie powinno być nim żaden wz&#243;r i ciąg znak&#243;w kt&#243;ry jest łatwy do odgadnięcia (np. nazwa ulicy, imię gospodarza, data urodzin itp.). Rekomenduje się także korzystanie najwyższych możliwych standard&#243;w szyfrowania sieci bezprzewodowych Wi-Fi, kt&#243;re są możliwe do uruchomienia na posiadanym sprzęcie np. WPA2.&#160;<br>
-<br>
-<br>
-&#167;7 Logowanie zewnętrzne i brak wtyczek medi&#243;w społecznościowych<br>
-<br>
-Aplikacja nie zawiera klasycznych wtyczek medi&#243;w społecznościowych (plug-ins) typu „Lubię to” Meta Platforms Inc. (Facebook) ani przycisk&#243;w X Corp. (dawniej Twitter), kt&#243;re samodzielnie przekazywałyby dane do tych podmiot&#243;w w trakcie korzystania z Usługi.<br>
-Aplikacja umożliwia użytkownikowi zalogowanie się przy użyciu zewnętrznych dostawc&#243;w tożsamości:<br>
-Sign in with Google – usługa świadczona przez Google LLC, 1600 Amphitheatre Parkway, Mountain View, CA 94043, USA. Zasady przetwarzania danych przez Google dostępne są pod adresem: https://policies.google.com/privacy<br>
-Sign in with Apple – usługa świadczona przez Apple Inc., One Apple Park Way, Cupertino, CA 95014, USA. Zasady przetwarzania danych przez Apple dostępne są pod adresem: https://www.apple.com/legal/privacy/<br>
-W ramach logowania zewnętrznego Administrator otrzymuje wyłącznie unikalny identyfikator dostawcy oraz – jeśli użytkownik wyrazi na to zgodę po stronie dostawcy – adres e-mail, niezbędne do utworzenia i obsługi konta w aplikacji. Korzystanie z funkcji logowania zewnętrznego oznacza, że dane podlegają r&#243;wnież zasadom przetwarzania określonym przez ww. dostawc&#243;w.<br>
-<br>
-<br>
-Nota o prawach autorskich do Regulaminu<br>
-Właścicielem wszystkich materialnych praw autorskich do wzorca niniejszej polityki jest Kancelaria Prawna LEGATO, kt&#243;ra udzieliła niewyłącznego i niezbywalnego prawa do wykorzystywania tego dokumentu do cel&#243;w związanych z własną działalnością handlową w Internecie oraz rozciąga ochronę prawną na w/w dokument na czas trwania umowy. Kopiowanie oraz rozpowszechnianie wzorca niniejszego dokumentu bez zgody Kancelarii Prawnej LEGATO jest zabronione i może podlegać odpowiedzialności zar&#243;wno karnej jak i cywilnej. Sprzedawcy internetowi mogą dowiedzieć się więcej o możliwości korzystania z wzorca polityki prywatności i cookies na stronie http://www.kancelaria-legato.pl
-    </div>
+    <article class="legal-text">
+      <p class="paragraph">/</p>
+      <p class="document-title">POLITYKA PRYWATNOŚCI PLATFORMY SAVYRR</p>
+      <p class="section-title">&#167;1 Postanowienia og&#243;lne</p>
+      <p class="paragraph">Ten dokument stanowi załącznik do Regulaminu. Korzystając z naszych usług, powierzasz nam swoje informacje. Niniejsza Polityka prywatności służy jedynie jako pomoc w zrozumieniu, jakie informacje i dane są zbierane i w jakim celu je wykorzystujemy. Te dane są bardzo dla nas ważne, dlatego prosimy o dokładne zapoznanie się z tym dokumentem gdyż określa on zasady oraz sposoby przetwarzania i ochrony danych osobowych. Dokument ten określa także zasady stosowania plik&#243;w „Cookies”.</p>
+      <p class="paragraph">Niniejszym oświadczamy, że przestrzegamy zasad ochrony danych osobowych oraz wszelkich uregulowań prawnych, kt&#243;re są przewidziane Ustawą o ochronie danych osobowych oraz Rozporządzeniem Parlamentu Europejskiego i Rady (UE) 2016/679 z dnia 27 kwietnia 2016 r. w sprawie ochrony os&#243;b fizycznych w związku z przetwarzaniem danych osobowych i w sprawie swobodnego przepływu takich danych oraz uchylenia dyrektywy 95/46/WE.</p>
+      <p class="paragraph">Osoba kt&#243;rej dane osobowe są przetwarzane ma prawo zwr&#243;cić się do nas celem uzyskania wyczerpujących informacji w jaki spos&#243;b wykorzystujemy jego dane osobowe. Zawsze w jasny spos&#243;b staramy się poinformować o danych, kt&#243;re gromadzimy, w jaki spos&#243;b je wykorzystujemy, jakim celom mają służyć i komu je przekazujemy, jaką zapewniamy ochronę tych danych przy przekazaniu innym podmiotom oraz udzielamy informacji o instytucjach z kt&#243;rymi należy się skontaktować w razie wątpliwości.</p>
+      <p class="paragraph">Platforma stosuje środki techniczne takie jak: środki ochrony fizycznej danych osobowych, środki  sprzętowe infrastruktury informatycznej i telekomunikacyjnej, środki ochrony w ramach narzędzi programowych i baz danych oraz środki organizacyjne zapewniające należytą ochronę przetwarzanych danych osobowych, a w szczeg&#243;lności zabezpieczają dane osobowe przed udostępnieniem ich nieupoważnionym osobom trzecim, uzyskaniem przez osobę nieupoważnioną i wykorzystaniem ich w niewiadomym celu, a także przypadkową lub celową zmianą, utratą, uszkodzeniem lub zniszczeniem takich danych. Obejmuje to m.in. ochronę komunikacji, kontrolę dostępu, ograniczanie nadużyć, walidację działań użytkownik&#243;w, mechanizmy zgłoszeń oraz moderację. Logi techniczne związane z bezpieczeństwem i diagnostyką mogą być przechowywane przez ograniczony okres, obecnie do około 90 dni.</p>
+      <p class="paragraph">Na zasadach określonych w Regulaminie oraz w niniejszym dokumencie posiadamy wyłączny dostęp do danych. Dostęp do danych osobowych może być r&#243;wnież powierzony innym podmiotom za pomocą kt&#243;rych dokonuje się płatności, kt&#243;re gromadzą, przetwarzają i przechowują dane osobowe zgodnie ze swoimi Regulaminami oraz podmioty, kt&#243;re mają za zadanie realizację zam&#243;wienia. Dostęp do danych osobowych jest udzielany w/w podmiotom w zakresie niezbędnym i tylko takim, kt&#243;ry zapewni realizację usług.</p>
+      <p class="paragraph">Dane osobowe są przetwarzane tylko w&#160;takich celach na&#160;jakie wyrazili Państwo zgodę poprzez kliknięcia w&#160;odpowiednie pola formularza zamieszczonego Platformie lub&#160;w&#160;inny wyraźny spos&#243;b. Podstawą prawną przetwarzania Państwa danych osobowych jest zgoda na&#160;przetwarzanie danych lub&#160;wym&#243;g realizacji usługi (np. zam&#243;wienie produktu czy usługi, stosownie do&#160;artykułu 6 ust. 1 lit a&#160;i b Rozporządzenia Parlamentu Europejskiego i&#160;Rady (UE) 2016/679 z&#160;dnia 27 kwietnia 2016 r. w&#160;sprawie ochrony os&#243;b fizycznych w&#160;związku z&#160;przetwarzaniem danych osobowych i&#160;w sprawie swobodnego przepływu takich danych oraz&#160;uchylenia dyrektywy 95/46/WE (og&#243;lne rozporządzenie o&#160;ochronie danych) -&#160;RODO.</p>
+      <p class="section-title">&#167;2 Zasady prywatności</p>
+      <p class="paragraph">Poważnie traktujemy prywatność. Charakteryzuje nas szacunek dla prywatności oraz możliwie najpełniejsza i zagwarantowana wygoda z korzystania z naszego usług.</p>
+      <p class="paragraph">Cenimy zaufanie, jakim obdarzają nas Użytkownicy, powierzając nam swoje dane osobowe w celu realizacji zam&#243;wienia. Zawsze korzystamy z danych osobowych w spos&#243;b uczciwy oraz tak, aby nie zawieść tego zaufania, tylko w zakresie niezbędnym do realizacji zam&#243;wienia w tym jego przetwarzania.</p>
+      <p class="paragraph">Użytkownik ma prawo do uzyskania jasnych i pełnych informacji o tym, w jaki spos&#243;b wykorzystujemy jego dane osobowe i do jakich cel&#243;w są potrzebne. Zawsze w jasny spos&#243;b informujemy o danych, kt&#243;re gromadzimy, w jaki spos&#243;b i komu je przekazujemy oraz udzielamy informacji o podmiotach, z kt&#243;rymi należy się skontaktować w razie wątpliwości, pytań, uwag.</p>
+      <p class="paragraph">W razie wątpliwości odnośnie wykorzystywania przez nas danych osobowych Użytkownika, niezwłocznie podejmiemy działania w celu wyjaśnienia takich wątpliwości, w spos&#243;b pełny i wyczerpujący odpowiadamy na wszystkie pytania z tym związane.</p>
+      <p class="paragraph">Podejmiemy wszystkie uzasadnione działania, aby chronić dane Użytkownik&#243;w przed nienależytym i niekontrolowanym wykorzystaniem oraz zabezpieczyć je w spos&#243;b kompleksowy.</p>
+      <p class="paragraph">Administratorem danych osobowych jest Kamil Sąder, ul. Walerego Sławka 9/84, 30-633 Krak&#243;w, adres e-mail: savyrr.contact@gmail.com (osoba fizyczna nieprowadząca działalności gospodarczej; w razie rozpoczęcia działalności gospodarczej Administrator zaktualizuje powyższe dane oraz uzupełni numer NIP/REGON, a niniejszy zapis będzie podlegał odpowiedniej aktualizacji).</p>
+      <p class="paragraph">Podstawą prawną przetwarzania Państwa danych osobowych jest art. 6 ust. 1 lit. b) RODO. Podanie danych nie jest obowiązkowe, ale niezbędne do podjęcia odpowiednich czynności poprzedzających zawarcie umowy oraz jej realizację. Będziemy przekazywać Państwa dane osobowe innym odbiorcom, kt&#243;rym powierzono przetwarzanie danych osobowych w imieniu i na naszą rzecz. Państwa dane będą przekazywane na podstawie art. 6 ust. 1 lit. f) RODO, gdzie prawnie uzasadnionym interesem jest należyte wykonanie um&#243;w/zleceń. Zebrane dane osobowe przechowujemy na terenie Europejskiego Obszaru Gospodarczego („EOG”), ale mogą one być także przesyłane do kraju spoza tego obszaru i tam przetwarzane. Każda operacja przesyłania danych osobowych jest wykonywana zgodnie z obowiązującym prawem. Jeżeli dane są przekazywane poza EOG, odbywa się to na podstawie mechanizm&#243;w przewidzianych przez RODO, w szczeg&#243;lności decyzji stwierdzającej odpowiedni stopień ochrony, standardowych klauzul umownych zatwierdzonych przez Komisję Europejską lub innych właściwych zabezpieczeń.</p>
+      <p class="paragraph">Państwa dane osobowe związane z zawarciem i realizacją umowy o świadczenie usług przetwarzane będą przez okres ich realizacji, a po jej zakończeniu nie dłużej niż wymagają tego obowiązujące przepisy prawa, w tym przepisy Kodeksu cywilnego oraz ustawy o rachunkowości – tj. co do zasady do 10 lat, licząc od końca roku kalendarzowego, w kt&#243;rym ostatnia umowa została wykonana (na potrzeby ewentualnych roszczeń, obowiązk&#243;w podatkowych i rachunkowych). Dane konta użytkownika (profil, zdjęcia, treści, dane logowania) są przechowywane przez okres aktywności konta i podlegają mechanizmowi automatycznego usuwania: po 12 miesiącach braku aktywności użytkownik otrzymuje ostrzeżenie, a po 18 miesiącach braku aktywności konto wraz z powiązanymi danymi jest trwale usuwane. Dłuższe okresy retencji (do 10 lat) odnoszą się wyłącznie do tych kategorii danych, dla kt&#243;rych obowiązek przechowywania wynika z przepis&#243;w (np. dokumentacja księgowa, dane niezbędne do obrony przed roszczeniami).</p>
+      <p class="paragraph">Państwa dane osobowe przetwarzane w celu zawarcia i wykonania przyszłych um&#243;w będą przetwarzane do czasu zgłoszenia sprzeciwu.</p>
+      <p class="paragraph">Przysługuje Państwu prawo do: dostępu do swoich danych osobowych i otrzymania kopii danych osobowych podlegających przetwarzaniu, sprostowania swoich nieprawidłowych danych; żądania usunięcia danych (prawo do bycia zapomnianym) w przypadku wystąpienia okoliczności przewidzianych w art. 17 RODO; żądania ograniczenia przetwarzania danych w przypadkach wskazanych w art. 18 RODO, wniesienia sprzeciwu wobec przetwarzania danych w przypadkach wskazanych w art. 21 RODO, przenoszenia dostarczonych danych, przetwarzanych w spos&#243;b zautomatyzowany.</p>
+      <p class="paragraph">Jeżeli uważacie Państwo, że dane osobowe są przetwarzane niezgodnie z prawem, możecie wnieść skargę do organu nadzorczego (Urząd Ochrony Danych Osobowych, ul. Stawki 2, Warszawa). Jeśli potrzebujecie Państwo dodatkowych informacji związanych z ochroną danych osobowych lub chcecie skorzystać z przysługujących praw, skontaktujcie się z nami listownie na adres korespondencyjny.</p>
+      <p class="paragraph">Dokładamy wszelkich starań, aby chronić przed nieuprawnionym dostępem, nieautoryzowaną modyfikacją, ujawnieniem oraz zniszczeniem informacji znajdujących się w naszym posiadaniu. W szczeg&#243;lności:</p>
+      <p class="paragraph">Kontrolujemy metody gromadzenia, przechowywania i przetwarzania informacji, w tym fizyczne środki bezpieczeństwa, aby chronić przed nieuprawnionym dostępem do systemu.</p>
+      <p class="paragraph">Dostępu do danych osobowych udzielamy jedynie tym pracownikom, kontrahentom oraz  przedstawicielom, kt&#243;rzy muszą mieć do nich dostęp. Ponadto na mocy umowy są oni zobowiązani do zachowania ścisłej poufności, do umożliwienia nam kontroli i sprawdzenia jak wywiązują się z powierzonych obowiązk&#243;w, a w przypadku niewypełnienia tych zobowiązań mogą ponieść konsekwencje.</p>
+      <p class="paragraph">Będziemy przestrzegać wszystkich obowiązujących przepis&#243;w i regulacji dotyczących ochrony danych i będziemy wsp&#243;łpracować z organami zajmującymi się ochroną danych oraz uprawnionymi do tego organami ścigania. W przypadku braku przepis&#243;w dotyczących ochrony danych, będziemy postępować zgodnie z og&#243;lnie przyjętymi zasadami ochrony danych, zasadami wsp&#243;łżycia społecznego jak i ustalonymi zwyczajami.</p>
+      <p class="paragraph">Dokładny spos&#243;b ochrony danych osobowych został zawarty w polityce ochrony danych osobowych (ODO: polityka bezpieczeństwa, regulamin ochrony danych osobowych, instrukcja zarządzania systemem informatycznym) Z przyczyn bezpieczeństwa, ze względu na opisane w niej procedury, jest ona do wglądu jedynie dla organ&#243;w kontroli państwowej.</p>
+      <p class="paragraph">W razie pytań, odnośnie sposobu, w jaki postępowania z danymi osobowymi, zapraszamy do kontaktu za pomocą strony, z kt&#243;rej użytkownik został przekierowany do niniejszej Polityki prywatności. Prośba o kontakt zostanie niezwłocznie przekazana do odpowiedniej powołanej do tego osoby.</p>
+      <p class="paragraph">Użytkownik ma zawsze prawo powiadomić nas, jeśli:</p>
+      <p class="paragraph">nie chce w jakiejkolwiek formie już otrzymywać od nas informacji lub wiadomości;</p>
+      <p class="paragraph">pragnie otrzymać posiadaną przez nas kopię swoich danych osobowych;</p>
+      <p class="paragraph">poprawić, zaktualizować lub usunąć swoje dane osobowe znajdujące się w naszej ewidencji;</p>
+      <p class="paragraph">pragnie zgłosić naruszenia, nienależyte wykorzystanie bądź przetwarzanie swoich danych osobowych.</p>
+      <p class="paragraph">Aby ułatwić nam odpowiedź bądź ustosunkowanie się do podanych informacji, prosimy o podanie imienia i nazwiska oraz dalej idących szczeg&#243;ł&#243;w.</p>
+      <p class="section-title">&#167;3 Zakres i cel zbierania danych osobowych</p>
+      <p class="paragraph">Przetwarzamy niezbędne dane osobowe w celu realizacji usług oraz w celach księgowych i tylko takich tj. :</p>
+      <p class="paragraph">w celu zawarcia umowy, świadczenia usług reklamacji oraz odstąpienia od umowy,</p>
+      <p class="paragraph">monitorowanie ruchu w aplikacji oraz na ewentualnej stronie internetowej Usługodawcy;</p>
+      <p class="paragraph">zbieranie anonimowych statystyk dotyczących sposobu korzystania z aplikacji;</p>
+      <p class="paragraph">ustalanie liczby anonimowych użytkownik&#243;w korzystających z aplikacji;</p>
+      <p class="paragraph">kontrolowanie, jak często prezentowane są użytkownikom poszczeg&#243;lne treści (profile, oferty wydarzeń);</p>
+      <p class="paragraph">kontrolowanie, jak często użytkownicy korzystają z poszczeg&#243;lnych funkcjonalności aplikacji oraz inicjują kontakt;</p>
+      <p class="paragraph">umożliwienie kontaktu z Administratorem (m.in. wiadomości transakcyjne wysyłane przez Resend);</p>
+      <p class="paragraph">wykorzystanie systemu dopasowań (matchmaking) oraz prezentacji ofert powiązanych z wydarzeniami;</p>
+      <p class="paragraph">wykorzystanie wewnętrznego systemu komunikacji pomiędzy użytkownikami (czat) oraz wysyłki transakcyjnych wiadomości e-mail (potwierdzenia, powiadomienia, ostrzeżenia o nieaktywności konta);</p>
+      <p class="paragraph">integracja z zewnętrznymi dostawcami tożsamości: Sign in with Google (Google LLC) oraz Sign in with Apple (Apple Inc.) – wyłącznie w zakresie umożliwienia rejestracji i uwierzytelnienia użytkownika;</p>
+      <p class="paragraph">obsługa ewentualnych przyszłych płatności wewnątrz aplikacji za funkcje dodatkowe (np. „Boost”, „Oferta Premium”) – rozliczanych za pośrednictwem App Store (Apple Inc.) lub Google Play (Google LLC) zgodnie z regulaminami tych dostawc&#243;w; obecnie funkcje te są nieodpłatne.</p>
+      <p class="paragraph">Zbieramy, przetwarzamy i przechowujemy następujące dane użytkownik&#243;w:</p>
+      <p class="paragraph">adres poczty elektronicznej (e-mail),</p>
+      <p class="paragraph">identyfikatory logowania zewnętrznego: Apple ID oraz Google ID – w zakresie niezbędnym do uwierzytelnienia użytkownika (otrzymywany jest unikalny identyfikator dostawcy oraz – jeśli użytkownik wyrazi zgodę po stronie dostawcy – adres e-mail);</p>
+      <p class="paragraph">datę urodzenia,</p>
+      <p class="paragraph">informacje techniczne dotyczące urządzenia użytkownika, systemu operacyjnego, wersji aplikacji oraz w przypadku korzystania z wersji web informacje o używanej przeglądarce,</p>
+      <p class="paragraph">dane profilowe podawane przez użytkownika, takie jak imię, wiek, płeć, wzrost, opis profilu, zainteresowania oraz informacje dotyczące stylu życia, w tym deklaracje dotyczące palenia lub spożywania alkoholu.</p>
+      <p class="paragraph">informacje  dotyczące preferencji użytkownika w zakresie dopasowań.</p>
+      <p class="paragraph">przybliżone dane lokalizacyjne użytkownika wykorzystywane wyłącznie do działania funkcji dopasowań i prezentacji użytkownik&#243;w lub ofert w określonym obszarze geograficznym; dokładna lokalizacja użytkownika nie jest publicznie udostępniana innym użytkownikom.</p>
+      <p class="paragraph">zdjęcia profilowe i inne treści publikowane przez użytkownika.</p>
+      <p class="paragraph">dane komunikacyjne związane z wiadomościami i interakcjami pomiędzy użytkownikami.</p>
+      <p class="paragraph">opinie i recenzje po wydarzeniach.</p>
+      <p class="paragraph">dane techniczne i bezpieczeństwa niezbędne do utrzymania działania usługi.</p>
+      <p class="paragraph">tokeny powiadomień push (Expo Push Token / APNs / FCM) oraz identyfikatory urządzeń niezbędne do dostarczania powiadomień;</p>
+      <p class="paragraph">inne dobrowolnie przekazane nam dane osobowe.</p>
+      <p class="paragraph">Podanie powyższych danych przez jest całkowicie dobrowolne ale także i niezbędne do pełnej realizacji usług.</p>
+      <p class="paragraph">Cel gromadzenia i przetwarzania lub wykorzystania przez nas danych:</p>
+      <p class="paragraph">obecnie Administrator nie prowadzi działań marketingu bezpośredniego ani kampanii reklamowych w aplikacji; w przypadku ich uruchomienia w przyszłości użytkownik zostanie o tym poinformowany, a niniejsza Polityka zostanie zaktualizowana;</p>
+      <p class="paragraph">realizacja obowiązk&#243;w nałożonych przepisami prawa poprzez zbieranie informacji o niepożądanych działaniach;</p>
+      <p class="paragraph">Możemy przesyłać dane osobowe do serwer&#243;w znajdujących się poza krajem zamieszkania użytkownika lub do podmiot&#243;w powiązanych, stron trzecich z siedzibą w innych krajach w tym krajach z obszaru EOG (Europejski Obszar Gospodarczy, EOG ang. European Economic Area, EEA – strefa wolnego handlu i Wsp&#243;lny Rynek, obejmujące państwa Unii Europejskiej i Europejskiego Stowarzyszenia Wolnego Handlu EFTA) w celu przetwarzania danych osobowych przez takie podmioty w naszym imieniu zgodnie z postanowieniami niniejszej Polityki prywatności oraz obowiązującymi przepisami prawa, zwyczajami jak i regulacjami dotyczącymi ochrony danych.</p>
+      <p class="paragraph">Wykaz kategorii odbiorc&#243;w danych (podmiot&#243;w przetwarzających), z kt&#243;rych usług Administrator korzysta przy świadczeniu usług aplikacji:</p>
+      <p class="paragraph">Google LLC – usługa „Sign in with Google” (uwierzytelnianie użytkownik&#243;w);</p>
+      <p class="paragraph">Apple Inc. – usługa „Sign in with Apple” (uwierzytelnianie użytkownik&#243;w);</p>
+      <p class="paragraph">Expo (650 Industries, Inc.) – wysyłka powiadomień push (Expo Push Notifications) oraz dostarczanie aktualizacji aplikacji (Expo Updates);</p>
+      <p class="paragraph">Resend (Resend, Inc.) – wysyłka transakcyjnych wiadomości e-mail (np. powiadomienia, ostrzeżenia o nieaktywności konta);</p>
+      <p class="paragraph">dostawca usług object storage zgodny ze standardem S3 (m.in. Civo Ltd.) – przechowywanie zdjęć i innych treści użytkownik&#243;w;</p>
+      <p class="paragraph">dostawca infrastruktury serwerowej oraz baz danych, w tym PostgreSQL, Redis i RabbitMQ – hosting backendu oraz przetwarzanie danych w trakcie świadczenia usług;</p>
+      <p class="paragraph">Apple Inc. / Google LLC – w zakresie ewentualnych przyszłych płatności realizowanych przez App Store / Google Play;</p>
+      <p class="paragraph">podmioty świadczące usługi prawne, księgowe i podatkowe na rzecz Administratora – w zakresie niezbędnym do obsługi rozliczeń i zobowiązań prawnych;</p>
+      <p class="paragraph">organy państwowe (sądy, organy ścigania, organy nadzorcze) – w zakresie i na podstawie obowiązujących przepis&#243;w prawa.</p>
+      <p class="paragraph">Z każdym z podmiot&#243;w przetwarzających, w zakresie wymaganym przez art. 28 RODO, Administrator zawiera lub zawrze przed rozpoczęciem powierzenia danych odpowiednią umowę powierzenia przetwarzania danych osobowych. Część dostawc&#243;w (m.in. Google, Apple, Expo, Resend) ma siedzibę poza Europejskim Obszarem Gospodarczym; w takim przypadku przekazywanie danych odbywa się na podstawie standardowych klauzul umownych zatwierdzonych przez Komisję Europejską lub innych mechanizm&#243;w przewidzianych przez RODO.</p>
+      <p class="paragraph">Twoje dane osobowe przechowujemy nie dłużej niż są one potrzebne dla właściwej jakości obsługi i w zależności od trybu i celu ich pozyskania przechowujemy je na czas jej trwania oraz po jej zakończeniu w celach:</p>
+      <p class="paragraph">realizacji obowiązk&#243;w wynikających z przepis&#243;w prawa, przepis&#243;w podatkowych i rachunkowych;</p>
+      <p class="paragraph">zapobiegania nadużyciom lub przestępstwom;</p>
+      <p class="paragraph">statystycznych i archiwizacyjnych.</p>
+      <p class="paragraph">Działania marketingowe - na czas trwania umowy, udzielenia odrębnej zgody na przetwarzanie takich danych – do czasu zakończenia działań związanych z obsługą transakcji, wniesienia przez Ciebie sprzeciwu wobec takiego przetwarzania lub wycofania zgody.</p>
+      <p class="paragraph">Działania okołosprzedażowe i promocyjne - np. konkursy, akcje promocyjne – na czas trwania i rozliczenia takich akcji.</p>
+      <p class="paragraph">Działalność operacyjna - do czasu przedawnienia obowiązk&#243;w nałożonych przez Rozporządzenie RODO oraz odpowiednie przepisy krajowe, celem wykazania rzetelności w przetwarzaniu danych osobowych</p>
+      <p class="paragraph">dochodzenia Wszelkich roszczeń związanych ze zrealizowaną umową;</p>
+      <p class="paragraph">Mając na uwadze okoliczności, że w wielu krajach, do kt&#243;rych są przesyłane niniejsze dane osobowe nie obowiązuje taki sam poziom ochrony prawnej danych osobowych, jaki obowiązuje w kraju użytkownika. Do danych osobowych użytkownika przechowywanych w innym kraju dostęp zgodnie z prawem tam obowiązującym, dostęp mogą uzyskać na przykład: sądy, organy odpowiedzialne za egzekwowanie prawa i bezpieczeństwo narodowe, zgodnie z przepisami obowiązującymi w tym kraju. Z zastrzeżeniem zgodnych z prawem pr&#243;śb o ujawnienie danych, zobowiązujemy się wymagać od podmiot&#243;w przetwarzających dane osobowe poza krajem użytkownika podjęcia działań w celu ochrony danych w adekwatny spos&#243;b do regulacji ich prawa krajowego.</p>
+      <p class="section-title">&#167;4 Polityka „Cookies”</p>
+      <p class="paragraph">Usługa jest świadczona gł&#243;wnie w postaci aplikacji mobilnej. Aplikacja mobilna nie wykorzystuje plik&#243;w „cookies&quot; w klasycznym rozumieniu przeglądarkowym; w celach analogicznych (utrzymanie sesji, identyfikacja zalogowanego użytkownika, bezpieczeństwo) wykorzystywane są wyłącznie tokeny uwierzytelniające oraz identyfikatory techniczne urządzenia, przechowywane lokalnie w bezpiecznych magazynach systemu operacyjnego (Keychain w iOS / Keystore w Android). Aplikacja nie korzysta z narzędzi analitycznych (np. Google Analytics), reklamowych (np. Google Ads, Meta Ads, Facebook Pixel), remarketingowych ani z mechanizm&#243;w śledzenia użytkownik&#243;w w celach marketingowych. W razie uruchomienia w przyszłości strony internetowej Usługodawcy lub wprowadzenia narzędzi analitycznych/reklamowych, niniejsza Polityka zostanie zaktualizowana, a użytkownik zostanie o tym poinformowany przed rozpoczęciem przetwarzania w tych celach.</p>
+      <p class="section-title">&#167;5 Prawa i obowiązki</p>
+      <p class="paragraph">Mamy prawo a w przypadkach prawem określonych także i ustawowy obowiązek do przekazania wybranych bądź wszystkich informacji dotyczących danych osobowych organom władzy publicznej bądź osobom trzecim, kt&#243;re zgłoszą takie żądanie udzielenia informacji na podstawie obowiązujących przepis&#243;w prawa polskiego.</p>
+      <p class="paragraph">Użytkownik ma prawo dostępu do treści swoich danych osobowych, kt&#243;re udostępnia, Użytkownik może te dane poprawiać, uzupełniać w każdym czasie, a także ma prawo do żądania aby je usunięto ze swoich baz danych bądź zaprzestano je przetwarzać, bez podawania jakiekolwiek przyczyny. W celu realizacji swoich praw Użytkownik może w każdym czasie przesłać stosowną wiadomość na adres poczty elektronicznej bądź w inny spos&#243;b, kt&#243;ry dostarczy/przekaże takie żądanie.</p>
+      <p class="paragraph">Przetwarzanie danych osobowych os&#243;b fizycznych będących naszymi klientami opiera się na:</p>
+      <p class="paragraph">usprawiedliwionym interesie jako administratora danych (np. w zakresie tworzenia bazy danych, czynności analitycznych i profilujących, w tym czynności dot. analizy korzystania z produkt&#243;w, marketingu bezpośredniego produkt&#243;w własnych, zabezpieczeniu dokumentacji na potrzeby obrony przed ewentualnymi roszczeniami lub na potrzeby dochodzenia roszczeń),</p>
+      <p class="paragraph">wykonania zawartej umowy,</p>
+      <p class="paragraph">obowiązk&#243;w wynikających z prawa (np. prawa podatkowego lub przepis&#243;w o rachunkowości).</p>
+      <p class="paragraph">Przetwarzanie danych osobowych os&#243;b fizycznych będących potencjalnymi klientami opiera się na:</p>
+      <p class="paragraph">usprawiedliwionym interesie administratora danych (np. w zakresie tworzenia bazy danych, marketingu bezpośrednim produkt&#243;w własnych)</p>
+      <p class="paragraph">Żądanie ze strony Użytkownika usunięcia danych osobowych lub zaprzestania ich przetwarzania przez może skutkować całkowitym brakiem możliwości realizacji usług przez bądź ich poważnym ograniczeniem.</p>
+      <p class="paragraph">Szczeg&#243;lną wagę przykładamy do kwestii profilowania i wskazujemy, że:</p>
+      <p class="paragraph">na potrzeby profilowania przetwarzamy z reguły dane, kt&#243;re uprzednio podlegały szyfrowaniu ssl;</p>
+      <p class="paragraph">wykorzystujemy do tego dane podane przez użytkownika w profilu (m.in. wiek, płeć, lokalizację, preferencje partnera, zainteresowania, styl życia) oraz dane techniczne (identyfikator konta, identyfikator urządzenia, adres IP);</p>
+      <p class="paragraph">profilujemy w celu realizacji funkcji dopasowań (matchmaking) i filtrowania ofert/profili zgodnie z kryteriami zdefiniowanymi przez użytkownika (m.in. lokalizacja, preferencje partnera, rodzaj wydarzenia), a także w celu ustalania rankingu prezentowanych ofert i wykorzystania funkcji typu „Boost” (kt&#243;ra – po jej ewentualnym uruchomieniu – może promować widoczność wybranych treści użytkownika);</p>
+      <p class="paragraph">obecnie Administrator nie prowadzi profilowania w celach marketingowych ani nie korzysta z reklam behawioralnych ani z system&#243;w reklam zewnętrznych; w razie zmiany w tym zakresie niniejsza Polityka zostanie zaktualizowana, a użytkownik zostanie o tym poinformowany.</p>
+      <p class="paragraph">Zobowiązujemy się postępować zgodnie z obowiązującymi przepisami prawa i zasadami wsp&#243;łżycia społecznego.</p>
+      <p class="paragraph">Informacja o pozasądowym rozpatrywaniu spor&#243;w konsumenckich. Podmiotem uprawnionym w rozumieniu ustawy o pozasądowym rozpatrywaniu spor&#243;w konsumenckich jest Rzecznik Finansowy, kt&#243;rego adres strony internetowej jest następujący: www.rf.gov.pl.</p>
+      <p class="section-title">&#167;6 Podstawowe zasady bezpieczeństwa</p>
+      <p class="paragraph">Każdy użytkownik powinien dbać o swoje własne bezpieczeństwo danych oraz o bezpieczeństwo swoich urządzeń, kt&#243;re służą dostępowi do sieci Internet. Takie urządzenie powinno bezwzględnie posiadać program antywirusowy z aktualną regularnie uzupełnianą bazą definicji, typ&#243;w i rodzaj&#243;w wirus&#243;w, bezpieczną wersję przeglądarki internetowej z kt&#243;rej korzysta oraz włączoną zaporę sieciową. Użytkownik powinien sprawdzać, czy system operacyjny i programy zainstalowane na nim posiadają najnowsze i kompatybilne aktualizacje, ponieważ w atakach wykorzystywane są błędy wykryte w zainstalowanym oprogramowaniu.</p>
+      <p class="paragraph">Dane dostępowe do usług oferowanych w sieci Internet to – np. loginy, hasła, PIN, certyfikaty elektroniczne itp., – powinny być zabezpieczone w miejscu niedostępnym dla innych i niemożliwym do włamania z poziomu sieci internetowej. Nie należy ich ujawniać lub przechowywać na urządzeniu w formie, kt&#243;ra umożliwia nieautoryzowany dostęp i odczyt przez osoby do tego nieuprawnione.</p>
+      <p class="paragraph">Ostrożność podczas otwierania dziwnych załącznik&#243;w lub odnośnik&#243;w w wiadomościach mailowych, kt&#243;rych się nie spodziewaliśmy np. od nieznanych nadawc&#243;w, bądź z folderu spam.</p>
+      <p class="paragraph">Zaleca się uruchomienie w przeglądarce internetowej filtr&#243;w antyphishingowych czyli narzędzi, kt&#243;re sprawdzają, czy wyświetlona strona internetowa jest autentyczna i nie służy wyłudzaniu informacji, np. poprzez podszywanie się pod osobę lub instytucję.</p>
+      <p class="paragraph">Pliki powinny być pobierane tylko i wyłącznie z zaufanych miejsc, serwis&#243;w i stron. Nie zalecamy instalowania oprogramowania z niezweryfikowanych źr&#243;deł zwłaszcza od nieznanych wydawc&#243;w o niesprawdzonej opinii. Dotyczy to r&#243;wnież urządzeń przenośnych, np. smartfon&#243;w, tablet&#243;w.</p>
+      <p class="paragraph">Podczas używania domowej sieci bezprzewodowej Wi-Fi należy ustalić takie hasło aby było bezpieczne i trudne do złamania, nie powinno być nim żaden wz&#243;r i ciąg znak&#243;w kt&#243;ry jest łatwy do odgadnięcia (np. nazwa ulicy, imię gospodarza, data urodzin itp.). Rekomenduje się także korzystanie najwyższych możliwych standard&#243;w szyfrowania sieci bezprzewodowych Wi-Fi, kt&#243;re są możliwe do uruchomienia na posiadanym sprzęcie np. WPA2.</p>
+      <p class="section-title">&#167;7 Logowanie zewnętrzne i brak wtyczek medi&#243;w społecznościowych</p>
+      <p class="paragraph">Aplikacja nie zawiera klasycznych wtyczek medi&#243;w społecznościowych (plug-ins) typu „Lubię to” Meta Platforms Inc. (Facebook) ani przycisk&#243;w X Corp. (dawniej Twitter), kt&#243;re samodzielnie przekazywałyby dane do tych podmiot&#243;w w trakcie korzystania z Usługi.</p>
+      <p class="paragraph">Aplikacja umożliwia użytkownikowi zalogowanie się przy użyciu zewnętrznych dostawc&#243;w tożsamości:</p>
+      <p class="paragraph">Sign in with Google – usługa świadczona przez Google LLC, 1600 Amphitheatre Parkway, Mountain View, CA 94043, USA. Zasady przetwarzania danych przez Google dostępne są pod adresem: https://policies.google.com/privacy</p>
+      <p class="paragraph">Sign in with Apple – usługa świadczona przez Apple Inc., One Apple Park Way, Cupertino, CA 95014, USA. Zasady przetwarzania danych przez Apple dostępne są pod adresem: https://www.apple.com/legal/privacy/</p>
+      <p class="paragraph">W ramach logowania zewnętrznego Administrator otrzymuje wyłącznie unikalny identyfikator dostawcy oraz – jeśli użytkownik wyrazi na to zgodę po stronie dostawcy – adres e-mail, niezbędne do utworzenia i obsługi konta w aplikacji. Korzystanie z funkcji logowania zewnętrznego oznacza, że dane podlegają r&#243;wnież zasadom przetwarzania określonym przez ww. dostawc&#243;w.</p>
+      <p class="paragraph">Nota o prawach autorskich do Regulaminu</p>
+      <p class="paragraph">Właścicielem wszystkich materialnych praw autorskich do wzorca niniejszej polityki jest Kancelaria Prawna LEGATO, kt&#243;ra udzieliła niewyłącznego i niezbywalnego prawa do wykorzystywania tego dokumentu do cel&#243;w związanych z własną działalnością handlową w Internecie oraz rozciąga ochronę prawną na w/w dokument na czas trwania umowy. Kopiowanie oraz rozpowszechnianie wzorca niniejszego dokumentu bez zgody Kancelarii Prawnej LEGATO jest zabronione i może podlegać odpowiedzialności zar&#243;wno karnej jak i cywilnej. Sprzedawcy internetowi mogą dowiedzieć się więcej o możliwości korzystania z wzorca polityki prywatności i cookies na stronie http://www.kancelaria-legato.pl</p>
+    </article>
   </main>
 </body>
 </html>
